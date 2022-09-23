@@ -22,9 +22,6 @@ html {
   height: 100%;
 }
 .characters {
-  transition: transform 1000ms ease-in-out;
-
-  transform: rotateY(calc(3.142 * 2rad));
 }
 
 #root {
@@ -35,7 +32,7 @@ html {
 .maincontainer {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 100px;
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -50,8 +47,8 @@ html {
 }
 
 img {
-  height: 325px;
-  width: 224px;
+  height: (calc(325 * 4 / 5) * 1px);
+  width: calc((224 * 4 / 5) * 1px);
 }
 
 #mainscore {
